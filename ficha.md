@@ -1,4 +1,7 @@
-Nombre:<br>
+<input type="text" id="name" name="Nombre"/><br>
+<input type="date" id="bithdate" name="bithdate"
+       value="2018-07-22"
+       min="2018-01-01" max="2018-12-31">
 Fecha de nacimiento:<br>
 Lugar:<br>
 Archivo localizado: SI/ NO
