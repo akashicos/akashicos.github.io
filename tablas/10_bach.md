@@ -1,0 +1,9 @@
+# Flores de Bach
+
+|                            COLUMNA 1                            |                          COLUMNA 2                          |                         COLUMNA 3                         |                      COLUMNA 4                      |
+|:---------------------------------------------------------------:|:-----------------------------------------------------------:|:---------------------------------------------------------:|:---------------------------------------------------:|
+|         Agrimonia<br>Álamo temblón<br>Haya<br>Centaurea         | Caratostigma<br>Cerasifera<br>Brote de castaño<br>Achicoria |     Clemátide<br>Manzano silvestre<br>Olmo<br>Genciana    |        Aulaga<br>Breso<br>Acebo<br>Madreselva       |
+|           Hojarazo<br>Impaciencia<br>Alerce<br>Mimulo           |         Mostaza<br>Roble<br>Olivo<br>Pino silvestre         | Castaño rojo<br>Heliantemo<br>Agua de roca<br>Scieranthus | Leche de gallina<br>Castaño dulce<br>Verbena<br>Vid |
+| Nogal<br>Violeta de agua<br>Castaño de india<br>Avena silvestre |                                                             |                                                           |                                                     |
+
+[Volver a la ficha](../ficha.md)
