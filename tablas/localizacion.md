@@ -1,4 +1,4 @@
-#Localización de bloqueos en el sistema energético
+# Localización de bloqueos en el sistema energético
 
 | COLUMNA 1                    | COLUMNA 2                    | COLUMNA 3 |
 |------------------------------|------------------------------|-----------|
@@ -10,4 +10,4 @@
 | 6ª Capa Aura (celestial)     | Varios chakras a la vez      | Chakra 6  |
 | 7ª Capa Aura (cetérica)      | Varias capas áureas a la vez | Chakra 7  |
 
-<a href="javascript:history.back()">Go Back</a>
+[Volver a la ficha](../ficha.md)
