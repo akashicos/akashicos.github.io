@@ -1,18 +1,23 @@
 <form>
+<div>
 <label for="name">Nombre y Apellidos</label>
 <input type="text" id="name" name="name"/><br>
+</div>
+<div>
 <label for="birthdate">Fecha de nacimiento</label>
-<input type="date" id="bithdate" name="bithdate"
-       value="2018-07-22"
+<input type="date" id="bithdate" name="bithdate" value="2018-07-22"
        min="2018-01-01" max="2018-12-31">
-<label for="place">Lugar de nacimiento</label>
-<input type="text" id="place" name="place"/><br>
-
-<!-- Rounded switch -->
+</div>
+<div>
+       <label for="place">Lugar de nacimiento</label>
+       <input type="text" id="place" name="place"/><br>
+</div>
 <div>
   <label for="archivo">Archivo localizado:</label>
   <input type="checkbox" id="archivo" name="archivo">
-  <label for="permiso">Archivo localizado:</label>
+</div>
+<div>
+  <label for="permiso">Permiso concedido:</label>
   <input type="checkbox" id="permiso" name="permiso">
 </div>
 </form>
