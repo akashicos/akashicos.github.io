@@ -1,3 +1,4 @@
+<label for="name">Nombre y Apellidos</label>
 <input type="text" id="name" name="Nombre"/><br>
 <input type="date" id="bithdate" name="bithdate"
        value="2018-07-22"
