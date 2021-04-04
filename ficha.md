@@ -14,8 +14,9 @@
          checked>
   <label for="scales">Scales</label>
 </div>
+<label for="scales">Scales</label>
 <label class="switch">
-  <input type="checkbox">
+  <input type="checkbox" id="checkbox" name="checkbox">
   <span class="slider round"></span>
 </label>
 </form>
