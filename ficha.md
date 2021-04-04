@@ -1,7 +1,11 @@
-Nombre:
-Fecha de nacimiento: 
-Lugar:
-Archivo localizado SI/ NO 
+Nombre:<br>
+Fecha de nacimiento:<br>
+Lugar:<br>
+Archivo localizado <!-- Rounded switch -->
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label> 
 Permiso concedido SI/ NO
 
 | COLUMNA 1                                                                                                                                           | COLUMNA 2                                                                                 | COLUMNA 3                                                                                                                                                      |
