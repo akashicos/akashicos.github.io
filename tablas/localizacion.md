@@ -10,6 +10,4 @@
 | 6ª Capa Aura (celestial)     | Varios chakras a la vez      | Chakra 6  |
 | 7ª Capa Aura (cetérica)      | Varias capas áureas a la vez | Chakra 7  |
 
-<script>
-  document.write('<a href="' + document.referrer + '">Go Back</a>');
-</script>
+<a href="javascript:history.back()">Go Back</a>
