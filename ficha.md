@@ -1,10 +1,24 @@
+<form>
 <label for="name">Nombre y Apellidos</label>
-<input type="text" id="name" name="Nombre"/><br>
+<input type="text" id="name" name="name"/><br>
+<label for="birthdate">Fecha de nacimiento</label>
 <input type="date" id="bithdate" name="bithdate"
        value="2018-07-22"
        min="2018-01-01" max="2018-12-31">
-Fecha de nacimiento:<br>
-Lugar:<br>
+<label for="place">Lugar de nacimiento</label>
+<input type="text" id="place" name="place"/><br>
+
+<!-- Rounded switch -->
+<div>
+  <input type="checkbox" id="scales" name="scales"
+         checked>
+  <label for="scales">Scales</label>
+</div>
+<label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label>
+</form>
 Archivo localizado: SI/ NO
 Permiso concedido: SI/ NO
 
