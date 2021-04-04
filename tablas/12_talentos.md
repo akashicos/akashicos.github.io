@@ -1,0 +1,6 @@
+# Talentos y habilidades extrasensoriales (semilla que se puede potenciar porque en otra vida han sido usadas)
+
+|                   COLUMNA 1                   |                     COLUMNA 2                    |                  COLUMNA 3                 | COLUMNA 4                             |
+|:---------------------------------------------:|:------------------------------------------------:|:------------------------------------------:|---------------------------------------|
+| Telepatía<br>Proyección astral<br>Mediumnidad | Clarividencia<br>Claraudiencia<br>Clarisentencia | Psicometría<br>Psicokinesis<br>Pyrokinesis | Canalización<br>Poder mental<br>Magia |
+|   Bilocación<br>Xenoglosia<br>Visión remota   | Poder de sanación<br>Pantomnesia<br>Precognición |               Retrocognición               |                                       |
