@@ -34,5 +34,5 @@ Lista de bloqueos:
 
 
 
-[Sanacion Vivienda](/peticiones/vivienda.md)
-[Fichas](/fichas/readme.md)
+[Sanacion Vivienda](/peticiones/vivienda.md)<br>
+[Tablas](/tablas/readme.md)
