@@ -1,0 +1,14 @@
+# Causas de posible malestar
+
+|                       COLUMNA 1                      |                          COLUMNA 2                         |                              COLUMNA 3                             |                         COLUMNA 4                         |
+|:----------------------------------------------------:|:----------------------------------------------------------:|:------------------------------------------------------------------:|:---------------------------------------------------------:|
+|            Ataque psíquico<br>de entidades           |               Ataque psíquico<br>de personas               |                     Desarmonización<br>interna                     |        Bloqueo interno<br>del sistema<br>energético       |
+|      Principio de enfermedad<br>Malestar físico      | Interacción con<br>otras realidades<br>planos o densidades |          Cambios en la <br>tierra en<br>relación al tiempo         |        Herencia genética,<br>biológica o energética       |
+|                 Influencia de la luna                |                       Cambios en ADN                       |                Depresión tras <br>trabajo energético               |    Percepción de<br>impresiones y <br>energías etéricas   |
+|       Alteraciones del <br>sistema<br>nervioso       |     Síntomas del<br>proceso de <br>limpieza energética     | Influencia energética<br>de otras personas<br>por presencia física | Influencia energética<br>de otras personas<br>remotamente |
+| Ataque mediante <br>manipulación de ondas<br>sonoras |             Algo ingerido<br>no ha sentado bien            |                   Otros problemas<br>alimenticios                  |                Intencionalidad<br>negativa                |
+|                    Tormenta solar                    |                        Intoxicación                        |                              Geopatía                              |                           Otros                           |
+|            Nerviosismo <br>o preocupación            |                            Virus                           |                             Insolación                             |                      Sin información                      |
+|  Entidad o parásito <br>recogido<br>de otra persona  |                 Falta de <br>enraizamiento                 |                    Problemas durante<br>el sueño                   |                     Cansancio extremo                     |
+
+[Volver a la ficha](../ficha.md)
