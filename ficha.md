@@ -10,18 +10,13 @@
 
 <!-- Rounded switch -->
 <div>
-  <input type="checkbox" id="scales" name="scales"
-         checked>
-  <label for="scales">Scales</label>
+  <label for="archivo">Archivo localizado:</label>
+  <input type="checkbox" id="archivo" name="archivo">
+  <label for="permiso">Archivo localizado:</label>
+  <input type="checkbox" id="permiso" name="permiso">
 </div>
-<label for="scales">Scales</label>
-<label class="switch">
-  <input type="checkbox" id="checkbox" name="checkbox">
-  <span class="slider round"></span>
-</label>
 </form>
-Archivo localizado: SI/ NO
-Permiso concedido: SI/ NO
+
 
 | COLUMNA 1                                                                                                                                           | COLUMNA 2                                                                                 | COLUMNA 3                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
