@@ -15,4 +15,4 @@
 [12. Talentos y habilidades extrasensoriales](12.md)<br>
 [13.Talentos y habilidades](13.md)<br>
 
-[Volver a la ficha](../ficha.md)
+[Volver al inicio](../index.md)
