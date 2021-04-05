@@ -4,4 +4,4 @@ Desconecta y cierra todas las conexiones existentes entre estas almas y aspectos
 todavio abierto. Disuelve este bloqueo en todos los planos, dimensiones Y líneas temporales en el que se encuentre manifestado, desde el punto y momento espaciotemporal en el cual se originó hasta este momento.
 
 
-[Volver a la ficha](../ficha.md)
+[Volver al inicio](../index.md)
