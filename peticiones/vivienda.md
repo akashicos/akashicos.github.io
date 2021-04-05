@@ -16,4 +16,4 @@ Completa la transformación y asignación de este lugar de su estado actual en u
 
 Para el bien mayor de toda la humanidad, en mi conexión con el Universo, encomiendo esta intención y petición para que sea ejecutada ahora, y en todos los planos de existencia, espacio y tiempo. Gracias.
 
-[Volver a la ficha](../ficha.md)
+[Volver al inicio](../index.md)
