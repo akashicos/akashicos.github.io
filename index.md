@@ -5,8 +5,7 @@
 </div>
 <div>
 <label for="birthdate">Fecha de nacimiento</label>
-<input type="date" id="bithdate" name="bithdate" value="2018-07-22"
-       min="2018-01-01" max="2018-12-31">
+<input type="date" id="bithdate" name="bithdate" min="1900-01-01">
 </div>
 <div>
        <label for="place">Lugar de nacimiento</label>
