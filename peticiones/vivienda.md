@@ -2,7 +2,7 @@
 
 A Kumara, a todos los seres de los planos internos del planeta que trabajan para su transmutación energética, su crecimiento y su evolución, a las fuerzas y elementos de la naturaleza. También a todos mis guías protectores, seres de luz y aquellos que me asisten con mi trabajo, así como a mi yo superior que me guía y me protege.
 
-Solicito lo siguiente para esta vivienda en todas /as versiones y en todos los niveles dimensionales, en todos los conceptos del tiempo, a todos los niveles de existencia que tenga ese lugar:
+Solicito lo siguiente para esta vivienda en todas las versiones y en todos los niveles dimensionales, en todos los conceptos del tiempo, a todos los niveles de existencia que tenga ese lugar:
 
 - Elimina todos los problemas y restricciones de este lugar. neutraliza y disuelve toda la energía que pueda estar influyendo negativamente en él, transmutándola a la energía del amor, la verdad y la luz. Remplaza toda negatividad con la energía dorada del creador.
 
