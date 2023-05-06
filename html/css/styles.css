@@ -49,7 +49,11 @@ textarea {
 }
 
 .opciones {
-    column-count: 3;
-    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .columna {
+    width: 33%;
   }
   
