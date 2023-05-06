@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario de Registro Akáshico</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<form>
+		<h1>Registro de Sesión Akáshica</h1>
+
+		<label for="nombre">Nombre completo:</label>
+		<input type="text" id="nombre" name="nombre" required>
+
+		<label for="email">Correo electrónico:</label>
+		<input type="email" id="email" name="email" required>
+
+		<label for="fecha_nacimiento">Fecha de nacimiento:</label>
+		<input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+
+		<label for="motivo">Motivo de la sesión:</label>
+		<textarea id="motivo" name="motivo" required></textarea>
+
+		<label for="preguntas">Preguntas específicas:</label>
+		<textarea id="preguntas" name="preguntas"></textarea>
+
+		<input type="submit" value="Enviar">
+	</form>
+
+	<script src="js/actions.js"></script>
+</body>
+</html>
