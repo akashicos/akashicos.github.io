@@ -14,8 +14,15 @@
 		<label for="email">Correo electrónico:</label>
 		<input type="email" id="email" name="email" required>
 
-		<label for="fecha_nacimiento">Fecha de nacimiento:</label>
-		<input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero" onchange="cambiarPronombres()">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="no_binario">No binario</option>
+        </select>
 
 		<label for="motivo">Motivo de la sesión:</label>
 		<textarea id="motivo" name="motivo" required></textarea>
@@ -23,7 +30,53 @@
 		<label for="preguntas">Preguntas específicas:</label>
 		<textarea id="preguntas" name="preguntas"></textarea>
 
-		<input type="submit" value="Enviar">
+        <div class="opciones">
+            <div class="columna">
+                <h2>Columna 1</h2>
+                <label><input type="checkbox" name="problemas[]" value="entidades_negativas">Entidades negativas ancladas o acechantes</label>
+                <label><input type="checkbox" name="problemas[]" value="influencia_vida_simultanea">Influencia de vida simultánea</label>
+                <label><input type="checkbox" name="problemas[]" value="coraza_fachada">Coraza/Fachada</label>
+                <label><input type="checkbox" name="problemas[]" value="espejos_luz">Espejos de luz</label>
+                <label><input type="checkbox" name="problemas[]" value="calcificacion_toxinas">Calcificación física o toxinas</label>
+                <label><input type="checkbox" name="problemas[]" value="traumas">Trauma/Fobia</label>
+                <label><input type="checkbox" name="problemas[]" value="firewall">Firewall</label>
+                <label><input type="checkbox" name="problemas[]" value="guias">Guías negativos</label>
+                <label><input type="checkbox" name="problemas[]" value="enganche">Enganche a la red negativa</label>
+                <label><input type="checkbox" name="problemas[]" value="otros">Otros</label>
+                <label><input type="checkbox" name="problemas[]" value="basta">Basta de momento</label>
+            </div>
+            <div class="columna">
+                <h2>Columna 2</h2>
+                <label><input type="checkbox" name="problemas[]" value="maldicion">Maldición</label>
+                <label><input type="checkbox" name="problemas[]" value="pacto">Pacto</label>
+                <label><input type="checkbox" name="problemas[]" value="atadura">Atadura</label>
+                <label><input type="checkbox" name="problemas[]" value="hechizo">Hechizo</label>
+                <label><input type="checkbox" name="problemas[]" value="enganche_cuerda">Enganche/Cuerda</label>
+                <label><input type="checkbox" name="problemas[]" value="programacion_mental">Programación mental</label>
+                <label><input type="checkbox" name="problemas[]" value="karma_residual">Karma residual</label>
+                <label><input type="checkbox" name="problemas[]" value="desencarnados">Desencarnados / Fantasmas / Poltergeists</label>
+                <label><input type="checkbox" name="problemas[]" value="implante">Implante</label>
+                <label><input type="checkbox" name="problemas[]" value="portal">Portales dimensionales</label>
+                <label><input type="checkbox" name="problemas[]" value="adn">Problemas ADN</label>
+                <label><input type="checkbox" name="problemas[]" value="cordon_dorado">Cordón dorado dañado</label>
+            </div>
+            <div class="columna">
+                <h2>Columna 3</h2>
+                <label><input type="checkbox" name="problemas[]" value="forma_pensamiento_negativa">Forma de pensamiento negativa</label>
+                <label><input type="checkbox" name="problemas[]" value="ataque_psiquico">Ataque psíquico / Rayo rojo</label>
+                <label><input type="checkbox" name="problemas[]" value="promesa">Promesa</label>
+                <label><input type="checkbox" name="problemas[]" value="contrato_karmico">Contrato kármico</label>
+                <label><input type="checkbox" name="problemas[]" value="conexion_compasiva">Conexión compasiva</label>
+                <label><input type="checkbox" name="problemas[]" value="taponamiento">Taponamiento Energético</label>
+                <label><input type="checkbox" name="problemas[]" value="chakras">Chakras desbalanceados</label>
+                <label><input type="checkbox" name="problemas[]" value="fuga">Fuga energética</label>
+                <label><input type="checkbox" name="problemas[]" value="creencias">Creencia</label>
+                <label><input type="checkbox" name="problemas[]" value="ilusión">Ilusión</label>
+                <label><input type="checkbox" name="problemas[]" value="patrones">Patrones de comportamiento</label>
+            </div>
+
+
+            <input type="submit" value="Enviar" onclick="guardarDatos()">
 	</form>
 
 	<script src="js/actions.js"></script>
