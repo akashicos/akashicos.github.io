@@ -47,3 +47,9 @@ input[type="submit"]:hover {
 textarea {
 	height: 100px;
 }
+
+.opciones {
+    column-count: 3;
+    column-gap: 20px;
+  }
+  
