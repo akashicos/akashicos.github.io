@@ -40,4 +40,4 @@ Lista de bloqueos:
 [Sanacion Vivienda](/peticiones/vivienda.md)<br>
 [Tablas](/tablas/index.md)
 
-[Combinado](/combindao.md)
+[Combinado](/combinado.md)
