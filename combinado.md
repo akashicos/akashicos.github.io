@@ -1,6 +1,6 @@
 # Petición combinada
 
-Pido para _____________________________ a su yo superior:
+Pido para <input type="text" id="name" name="name" style="display:inline"/> a su yo superior:
 
 - [ ] Elimina todas las entidades o seres que están actualmente anclados o acechándo. Disuelve y borra de su registro todos los acuerdos o contratos que ha hecho con esas entidades. Devuélvelos a sus respectivos planos astrales. Bloquea todo acceso entre esta persona y las entidades permanentemente, a todos los niveles. Limpia y elimina todos los programas negativos y energías discordantes asociadas con estas entidades.
 - [ ] Desconecta y cierra todas las conexiones existentes entre esta persona y almas y aspectos de su ser. Limpia cualquier residuo energético recibido por este intercambio y cierra cualquier portal o conexión que este todavio abierto.
