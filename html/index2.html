@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Bloqueos</title>
+</head>
+<body>
+    <h1>Formulario de Bloqueos</h1>
+    <form id="personal-data-form">
+        <h2>Datos Personales</h2>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+        <label for="email">Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono"><br><br>
+        <button type="button" onclick="savePersonalData()">Guardar Datos Personales</button>
+    </form>
+    
+    <form id="bloqueos-form">
+        <h2>Selecciona Bloqueos</h2>
+        <!-- Primera Columna, Mitad Superior -->
+        <h3>Primera Columna, Mitad Superior</h3>
+        <input type="checkbox" id="bloqueo1" name="bloqueo1">
+        <label for="bloqueo1">Bloqueo 1</label><br>
+        <input type="checkbox" id="bloqueo2" name="bloqueo2">
+        <label for="bloqueo2">Bloqueo 2</label><br>
+        <!-- Más Checkboxes de la primera columna... -->
+        
+        <h3>Primera Columna, Mitad Inferior</h3>
+        <input type="checkbox" id="bloqueo3" name="bloqueo3">
+        <label for="bloqueo3">Bloqueo 3</label><br>
+        <!-- Más Checkboxes... -->
+        
+        <!-- Segunda Columna -->
+        <h3>Segunda Columna, Mitad Superior</h3>
+        <!-- Checkboxes... -->
+        
+        <h3>Segunda Columna, Mitad Inferior</h3>
+        <!-- Checkboxes... -->
+        
+        <!-- Tercera Columna -->
+        <h3>Tercera Columna, Mitad Superior</h3>
+        <!-- Checkboxes... -->
+        
+        <h3>Tercera Columna, Mitad Inferior</h3>
+        <!-- Checkboxes... -->
+        
+        <button type="button" onclick="processBlockages()">Procesar Bloqueos</button>
+    </form>
+    
+    <div id="result"></div>
+    
+    <script>
+        function savePersonalData() {
+            // Guardar datos personales en localStorage
+            const nombre = document.getElementById('nombre').value;
+            const apellidos = document.getElementById('apellidos').value;
+            const email = document.getElementById('email').value;
+            const telefono = document.getElementById('telefono').value;
+            
+            const personalData = {
+                nombre,
+                apellidos,
+                email,
+                telefono
+            };
+            
+            localStorage.setItem('personalData', JSON.stringify(personalData));
+            alert('Datos personales guardados');
+        }
+
+        function loadPersonalData() {
+            // Cargar datos personales de localStorage
+            const personalData = JSON.parse(localStorage.getItem('personalData'));
+            if (personalData) {
+                document.getElementById('nombre').value = personalData.nombre;
+                document.getElementById('apellidos').value = personalData.apellidos;
+                document.getElementById('email').value = personalData.email;
+                document.getElementById('telefono').value = personalData.telefono;
+            }
+        }
+
+        function processBlockages() {
+            // Recoger los bloqueos seleccionados
+            const checkboxes = document.querySelectorAll('#bloqueos-form input[type="checkbox"]');
+            const selectedBlockages = [];
+
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    selectedBlockages.push(checkbox.name);
+                }
+            });
+
+            if (selectedBlockages.length === 0) {
+                document.getElementById('result').textContent = "No se han seleccionado bloqueos.";
+                return;
+            }
+
+            localStorage.setItem('pendingBlockages', JSON.stringify(selectedBlockages));
+            showBlockages();
+        }
+
+        function showBlockages() {
+            const pendingBlockages = JSON.parse(localStorage.getItem('pendingBlockages'));
+
+            if (!pendingBlockages || pendingBlockages.length === 0) {
+                document.getElementById('result').textContent = "Todos los bloqueos han sido sanados.";
+                return;
+            }
+
+            const currentBlockage = pendingBlockages.shift();
+            const userName = JSON.parse(localStorage.getItem('personalData')).nombre || "Usuario";
+
+            document.getElementById('result').innerHTML = `
+                <h2>¿Se ha resuelto el siguiente bloqueo?</h2>
+                <p>${currentBlockage}</p>
+                <button onclick="resolveBlockage(true)">Sí</button>
+                <button onclick="resolveBlockage(false)">No</button>
+            `;
+
+            localStorage.setItem('pendingBlockages', JSON.stringify(pendingBlockages));
+        }
+
+        function resolveBlockage(resolved) {
+            if (resolved) {
+                showBlockages();
+            } else {
+                alert('Por favor, trabaja en resolver este bloqueo.');
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadPersonalData);
+    </script>
+</body>
+</html>
