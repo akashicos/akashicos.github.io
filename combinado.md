@@ -1,6 +1,6 @@
 # Petición combinada
 
-Pido para <input type="text" id="name" name="name" style="display:inline"/> a su yo superior:
+Pido para mi y para <input type="text" id="name" name="name" style="display:inline"/> a nuestros yo superiores:
 
 <br><input type="checkbox"> Elimina todas las entidades o seres que están actualmente anclados o acechándonos. Disuelve y borra de nuestros registros todos los acuerdos o contratos que hemos hecho con esas entidades. Devuélvelos a sus respectivos planos astrales. Bloquea todo acceso entre nosotras y dichas entidades permanentemente, a todos los niveles. Limpia y elimina todos los programas negativos y energías discordantes asociadas con esas entidades.
 
