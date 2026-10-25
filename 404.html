@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Akashicos se ha mudado</title>
+  <meta name="theme-color" content="#7a5c9e">
+  <link rel="canonical" href="https://akashicos.gofiodesign.eu/">
+  <style>
+    :root { color-scheme: light dark; --fondo: #f7f4ef; --texto: #2b2622; --suave: #6b625a; --acento: #7a5c9e; --acento-texto: #fff; }
+    @media (prefers-color-scheme: dark) { :root { --fondo: #1b1820; --texto: #ece7f1; --suave: #a79fb1; --acento: #b596dc; --acento-texto: #1b1820; } }
+    body { margin: 0; min-height: 100dvh; display: grid; place-items: center; background: var(--fondo); color: var(--texto); font: 1.1rem/1.5 Georgia, 'Times New Roman', serif; }
+    main { max-width: 32rem; padding: 32px 20px; text-align: center; }
+    h1 { font-size: 1.8rem; margin: 0 0 12px; }
+    p { margin: 0 0 14px; }
+    .nota { color: var(--suave); font-size: .95rem; }
+    a.ir { display: block; margin: 24px 0; padding: 18px 20px; border-radius: 12px; background: var(--acento); color: var(--acento-texto); font-weight: 600; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Akashicos se ha mudado</h1>
+    <p>Ahora está en <strong>akashicos.gofiodesign.eu</strong>.</p>
+    <a class="ir" id="ir" href="https://akashicos.gofiodesign.eu/">Ir a la nueva dirección</a>
+    <p class="nota" id="nota">Si tenías la app instalada, ábrela en la nueva dirección e instálala de nuevo; después puedes borrar la antigua.</p>
+  </main>
+  <script>
+    // Los datos se guardan por dominio: se pasan a la nueva dirección en el
+    // enlace, tras el «#», que no llega a ningún servidor (js/migrar.js de la
+    // app los recoge). Solo las personas guardadas y los datos de «yo».
+    const CLAVES = ['akashicos.personas', 'akashicos.yo', 'akashicos.bienvenida', 'akashicos.sanaciones', 'akashicos.donativo.pedido'];
+    const datos = {};
+    try {
+      for (const k of CLAVES) { const v = localStorage.getItem(k); if (v !== null) datos[k] = v; }
+    } catch { /* sin almacenamiento */ }
+    if (datos['akashicos.personas'] || datos['akashicos.yo']) {
+      const b = String.fromCharCode(...new TextEncoder().encode(JSON.stringify(datos)));
+      document.getElementById('ir').href += '#migrar=' + btoa(b).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+      document.getElementById('nota').textContent += ' Tus personas guardadas se pasarán solas a la nueva dirección al pulsar el botón.';
+    }
+  </script>
+</body>
+</html>
